@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.mentormate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bmx_logo_purple"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bmx_logo_purple"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:allowBackup,android:usesCleartextTraffic">
+        <activity android:name="com.example.mentormate.AddPaymentActivity"></activity>
+        <activity android:name="com.example.mentormate.Chat.ChatListActivity" />
+        <activity android:name="com.example.mentormate.Chat.SubChatActivity" />
+        <activity android:name="com.example.mentormate.Activitys.BidActivity" />
+        <activity android:name="com.example.mentormate.Activitys.View_skillActivity" />
+        <activity android:name="com.example.mentormate.Activitys.My_queriesActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Admin_detailActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Manage_paymentActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Manage_complaintActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Manage_feedbackActivity" />
+        <activity android:name="com.example.mentormate.Activitys.UserDetailsActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Manage_expertActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Expert_detailsActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Expert_membershipActivity" />
+        <activity android:name="com.example.mentormate.Activitys.View_queriesActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Manage_requestActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Reply_customerActivty" />
+        <activity android:name="com.example.mentormate.Activitys.Manage_skillActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Book_ExpertActivity" />
+        <activity android:name="com.example.mentormate.Activitys.User_profileActivity" />
+        <activity android:name="com.example.mentormate.Activitys.ManageCustomerActivity" />
+        <activity android:name="com.example.mentormate.Activitys.PaymentActivity" />
+        <activity android:name="com.example.mentormate.Activitys.MembershipActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Request_meetingActivity" />
+        <activity android:name="com.example.mentormate.Activitys.ReplyActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Post_QueryActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Admin_profileActivity" />
+        <activity android:name="com.example.mentormate.Activitys.Expert_profileActivity" />
+        <activity android:name="com.example.mentormate.Activitys.SignupActivity" />
+        <activity android:name="com.example.mentormate.Activitys.LoginActivity" />
+        <activity android:name="com.example.mentormate.Activitys.HomeActivity" />
+        <activity android:name="com.example.mentormate.Activitys.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
